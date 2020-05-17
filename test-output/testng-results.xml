@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40307" started-at="2020-03-08T18:57:38 IST" finished-at="2020-03-08T18:58:19 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runstep@2833cc44]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="40307" started-at="2020-03-08T18:57:38 IST" finished-at="2020-03-08T18:58:19 IST">
+      <class name="runner.Runstep">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runstep@2833cc44]" name="setUpClass" is-config="true" duration-ms="173" started-at="2020-03-08T18:57:38 IST" finished-at="2020-03-08T18:57:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runstep@2833cc44]" name="runScenario" duration-ms="23457" started-at="2020-03-08T18:57:39 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-08T18:58:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Verify CreateLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps CreateLead"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.Runstep@2833cc44]" name="runScenario" duration-ms="16562" started-at="2020-03-08T18:58:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-03-08T18:58:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TC001 Verify CreateLead"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Leaftaps CreateLead"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runstep@2833cc44]" name="tearDownClass" is-config="true" duration-ms="13" started-at="2020-03-08T18:58:19 IST" finished-at="2020-03-08T18:58:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runstep -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
